@@ -10,3 +10,6 @@ This project aims to analyze and classify areas of Morocco based on risk levels,
 
 This project is part of a broader study on urban safety using AI tools.
 
+#pip install torch transformers datasets soundfile librosa
+
+
