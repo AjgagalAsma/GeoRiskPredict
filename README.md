@@ -1,15 +1,78 @@
-# GeoRiskPredict
-A geo-location based dataset generator with safety logic (for age, sex, time, location)
+# 🌍 GeoRiskPredict: AI-Powered Geo Safety Predictor
 
-This project aims to analyze and classify areas of Morocco based on risk levels, time, and victim profiles. It generates synthetic data for various locations and simulates danger prediction using logical rules or machine learning.
+**GeoRiskPredict** is a geo-location based AI project that generates synthetic datasets and predicts the danger level of areas in Morocco based on age, sex, time, and location.
 
-🗺️ Features:
-- Time-based and age/gender-sensitive danger detection
-- Location-specific analysis (e.g. parks, mosques, public spaces)
-- Daily updates with realistic synthetic data
+This project focuses on preparing, training, and evaluating machine learning models for urban safety analysis.
 
-This project is part of a broader study on urban safety using AI tools.
+---
 
-#pip install torch transformers datasets soundfile librosa
+## ✨ Features
 
+- 🕒 **Time-based Danger Detection**: Considers time of day for risk assessment  
+- 👤 **Age & Gender Sensitive**: Adjusts danger predictions based on victim profile  
+- 📍 **Location-Specific Analysis**: Parks, mosques, and public spaces  
+- 📊 **Multiple ML Models**: Random Forest, Gradient Boosting, SVM, KNN, Logistic Regression  
+- 🔄 **Daily Updates**: Generates realistic synthetic data for continuous model testing  
+
+---
+
+## 📂 Dataset & Models
+
+### Dataset
+
+- **File:** `geo_safety_data.csv`  
+- **Contents:** Coordinates, time, age, sex, risk label  
+- **Purpose:** Training and evaluation of AI models for danger prediction  
+
+### Trained Models & Notebooks
+
+- `RandomForestModel.ipynb`  
+- `GradientBoostingM.ipynb`  
+- `LogisticRegrModele.ipynb`  
+- `svmM&knnM.ipynb`  
+- `models_audio_text/` (Whisper-small integration for audio keywords)
+
+---
+
+## 🧰 Tech Stack
+
+- **Languages:** Python  
+- **Libraries:** scikit-learn, torch, transformers, datasets, librosa, soundfile  
+- **Data:** Synthetic geolocation-based dataset  
+
+---
+
+### 🧠 AI Module Info
+
+The machine learning models are designed to predict dangerous zones based on synthetic data.
+
+- **Random Forest** achieved ~95% accuracy.
+- Other models (**Gradient Boosting, Logistic Regression, SVM, KNN**) are included for comparison.
+
+---
+
+### 🔗 Related Projects
+
+This AI module is integrated into the **ShakeUp** mobile app for real-time danger prediction:
+
+👉 [ShakeUp GitHub Repository](https://github.com/AjgagalAsma/ShakeUp)
+
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/AjgagalAsma/GeoRiskPredict.git
+cd GeoRiskPredict
+```
+### 2. Install dependencies
+
+```bash
+pip install torch transformers
+```
+### 3. Run notebooks
+- Open any of the .ipynb notebooks in Jupyter or Colab to train or evaluate the models.
 
