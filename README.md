@@ -10,7 +10,6 @@ This project focuses on preparing, training, and evaluating machine learning mod
 
 - 🕒 **Time-based Danger Detection**: Considers time of day for risk assessment  
 - 👤 **Age & Gender Sensitive**: Adjusts danger predictions based on victim profile  
-- 📍 **Location-Specific Analysis**: Parks, mosques, and public spaces  
 - 📊 **Multiple ML Models**: Random Forest, Gradient Boosting, SVM, KNN, Logistic Regression  
 - 🔄 **Daily Updates**: Generates realistic synthetic data for continuous model testing  
 
